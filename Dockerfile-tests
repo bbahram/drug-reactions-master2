@@ -1,0 +1,7 @@
+FROM docker-test
+
+ADD . /plugin
+
+WORKDIR /plugin
+
+RUN /bin/bash tests/docker-init.sh

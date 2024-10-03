@@ -1,0 +1,97 @@
+image: node
+
+before_script:
+
+
+stages:
+  - build
+  - test
+  - deploy
+
+build:
+  stage: build
+
+  script:
+    - npm install
+    - npm run build
+
+deploy:
+  stage: deploy
+  only:
+    - master
+
+  script:
+    - eval $(ssh-agent -s)
+    - ssh-add <(echo "$SSH_PRIVATE_KEY")
+    - mkdir -p ~/.ssh
+    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+
+    - npm install
+    - npm run build-debug
+    - echo "mkdir plugins-www/drug-reactions" | sftp -P 8022 gitlab-ci@10.240.6.160
+    - echo "put dist/plugin.js plugins-www/drug-reactions/" | sftp -P 8022 gitlab-ci@10.240.6.160
+
+test:
+  image: tomcat:9-jdk11
+
+  stage: test
+
+  script:
+  - apt-get update
+  - wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  - DEBIAN_FRONTEND=noninteractive apt install -y ./google-chrome-stable_current_amd64.deb
+
+  - DEBIAN_FRONTEND=noninteractive apt-get install -y maven curl unzip
+  - curl -sL https://deb.nodesource.com/setup_12.x | bash -
+  - DEBIAN_FRONTEND=noninteractive apt-get install -y nodejs
+
+  - wget https://chromedriver.storage.googleapis.com/2.41/chromedriver_linux64.zip
+  - unzip chromedriver_linux64.zip
+  - mv chromedriver /usr/bin/chromedriver
+  - chown root:root /usr/bin/chromedriver
+  - chmod +x /usr/bin/chromedriver
+
+  - npm install
+  - npm run build
+  - mkdir /usr/local/tomcat/webapps/test
+  - cp dist/plugin.js /usr/local/tomcat/webapps/test/
+  - PLUGIN_FILE=plugin.js
+  - PLUGIN_MD5=($(md5sum dist/plugin.js))
+  - echo $PLUGIN_FILE $PLUGIN_MD5
+
+  - PLUGIN_DIR=`pwd`
+
+  - mkdir /etc/minerva/
+  - mkdir /etc/minerva/test
+
+  #configure database
+  - echo "database.driver=org.hsqldb.jdbcDriver" >>/etc/minerva/db.properties
+  - echo "database.dialect=org.hibernate.dialect.HSQLDialect" >>/etc/minerva/db.properties
+  - echo "database.uri=jdbc:hsqldb:mem:dapi" >>/etc/minerva/db.properties
+  - echo "database.username=sa" >>/etc/minerva/db.properties
+  - echo "database.password=" >>/etc/minerva/db.properties
+  - echo "database.connectionQuery=SELECT 1 FROM INFORMATION_SCHEMA.SYSTEM_USERS" >>/etc/minerva/db.properties
+  - echo "database.pathToDataScripts=/etc/minerva/test" >>/etc/minerva/db.properties
+
+  #download test data (database and images)
+  - wget https://git-r3lab.uni.lu/ewa.smula/testing/raw/master/testData/generated_test_data.zip
+  - unzip generated_test_data.zip
+  - mv *.sql /etc/minerva/test
+  - mv map_images /usr/local/tomcat/webapps/
+
+  #fetch latest minerva (from master branch)
+  - cd /
+  - git clone https://git-r3lab.uni.lu/minerva/core.git
+  - cd core
+  #build minerva and deploy it
+  - mvn -Dmaven.test.skip=true clean install -pl web -am
+  - mv web/target/*.war /usr/local/tomcat/webapps/minerva.war
+  - /usr/local/tomcat/bin/startup.sh
+  - sleep 15
+
+  - curl -X POST -d "login=admin&password=admin" --write-out %{http_code} --silent --output /dev/null -c cookie.txt http://localhost:8080/minerva/api/doLogin
+  - curl "http://localhost:8080/minerva/api/plugins/" --cookie cookie.txt --data "hash=$PLUGIN_MD5&url=http%3A%2F%2Flocalhost%3A8080%2Ftest%2F$PLUGIN_FILE&name=test&version=0.0.1&isPublic=false"
+
+  #run test
+  - cd ${PLUGIN_DIR}
+  - npm run test

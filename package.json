@@ -1,0 +1,39 @@
+{
+  "name": "adr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel src -d __tmp_minerva_plugin -D ",
+    "clean-babel": "rimraf __tmp_minerva_plugin",
+    "build-css": "node-sass --include-path src/css src/css/styles.scss src/css/styles.css",
+    "build": "mkdirp dist && npm run build-css && npm run babel && browserify -t browserify-css __tmp_minerva_plugin/js/index.js | uglifyjs --compress --mangle > dist/plugin.js && npm run clean-babel",
+    "build-debug": "mkdirp dist && npm run build-css  && npm run babel && browserify -t browserify-css __tmp_minerva_plugin/js/index.js > dist/plugin.js && npm run clean-babel",
+    "clean": "rimraf dist && npm run clean-babel",
+    "test": "mocha tests"
+  },
+  "author": "David Hoksza",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "browserify": "^14.5.0",
+    "browserify-css": "^0.15.0",
+    "chai": "^4.2.0",
+    "core-js": "^3.2.1",
+    "mkdirp": "^0.5.1",
+    "mocha": "^7.1.1",
+    "node-sass": "latest",
+    "rimraf": "latest",
+    "selenium-webdriver": "^4.0.0-alpha.7",
+    "uglify-js": "^3.1.9",
+    "watchify": "^3.11.1",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.6.0",
+    "bootstrap-table": "^1.12.1",
+    "jquery": "^3.4.1"
+  }
+}

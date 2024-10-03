@@ -1,0 +1,12 @@
+@import url(../../node_modules/bootstrap-table/dist/bootstrap-table.min.css);
+.adr-container {
+  padding: 15px; }
+
+.adr-container .fixed-table-body {
+  overflow: auto; }
+
+.adr-container .drugs-loading {
+  text-align: center; }
+
+.adr-container .drugs-loading .fa-spin {
+  margin-right: 10px; }

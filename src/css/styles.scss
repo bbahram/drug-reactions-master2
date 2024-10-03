@@ -1,0 +1,20 @@
+@import "../../node_modules/bootstrap-table/dist/bootstrap-table.min.css";
+//@import "../../node_modules/select2-browserify/select2/select2.css";
+
+$pluginName: adr;
+
+.#{$pluginName}-container {
+  padding: 15px;
+}
+
+.#{$pluginName}-container .fixed-table-body {
+  overflow: auto;
+}
+
+.#{$pluginName}-container .drugs-loading {
+  text-align: center;
+}
+
+.#{$pluginName}-container .drugs-loading .fa-spin{
+  margin-right: 10px;
+}

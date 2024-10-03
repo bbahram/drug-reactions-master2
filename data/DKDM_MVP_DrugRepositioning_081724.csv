@@ -1,0 +1,448 @@
+Protein,Drug,Probability
+P03372,Etafedrine,0.90000963
+P03372,Indacaterol,0.90000963
+P03372,gamma-Hydroxybutyric acid,0.9000515
+Q01344,Flavin adenine dinucleotide,0.9003539
+P03372,Diclofenamide,0.9005673
+P03372,Metaraminol,0.90076673
+P03372,Indoramin,0.90076673
+P01375,Enprofylline,0.90082693
+P03372,Cycrimine,0.9008891
+P03372,Propantheline,0.9008891
+P03372,Hydrocodone,0.9009104
+Q9NZQ7,Glutamic acid,0.90094805
+P38936,Tiludronic acid,0.9010053
+P21802,alpha-Tocopherol succinate,0.9011869
+P03372,Gemeprost,0.9014195
+P23458,Adapalene,0.9015772
+P10275,Trimipramine,0.9015825
+P10275,Isometheptene,0.9016292
+P03372,Doxylamine,0.9019294
+P12931,alpha-Tocopherol succinate,0.9019309
+P45984,Zinc acetate,0.9020265
+P00533,Omega-3 fatty acids,0.90214103
+P00533,Kappadione,0.90240073
+P03372,Ciprofloxacin,0.9024202
+P27361,Miconazole,0.9024312
+P03372,Thonzylamine,0.90249825
+P03372,Brompheniramine,0.90249825
+P03372,Pipecuronium,0.90259004
+Q92731,Sertraline,0.9028274
+P14210,Arsenic trioxide,0.9029652
+P10275,Ergotamine,0.9030386
+P03372,Levobupivacaine,0.90319103
+P03372,Mepivacaine,0.90319103
+P03372,Dyclonine,0.90319103
+P01189,NADH,0.9033266
+P10275,Dihydroergocornine,0.90333706
+P27361,Vitamin A,0.90335584
+P42338,Pyridoxal phosphate,0.90337574
+P23458,Lithium carbonate,0.90339184
+P27361,Zanubrutinib,0.9035373
+P29350,Zinc chloride,0.90367055
+Q05209,Zinc chloride,0.90367055
+P37231,Fluocinolone acetonide,0.90374684
+P03372,Dienogest,0.9037742
+Q13131,Zinc chloride,0.90377617
+P10275,Naloxegol,0.90379614
+P10275,Oliceridine,0.90379614
+P15692,Hyaluronic acid,0.90383637
+O60674,Selpercatinib,0.90394807
+P00533,Lutetium Lu 177 dotatate,0.9040984
+O00329,Glycine,0.90416145
+P24385,Amiloride,0.904218
+P49841,Pyridoxal phosphate,0.90452373
+P10275,Amantadine,0.90452826
+P37231,Fingolimod,0.90489435
+P37231,Pentoxifylline,0.9049269
+P10275,Pargyline,0.9049341
+P10275,Isocarboxazid,0.9049341
+P10275,Selegiline,0.9049341
+P15692,Sucrose,0.90495235
+P10275,Danazol,0.9050131
+P03372,Norethisterone,0.9053019
+P03372,Droperidol,0.90548015
+Q05655,Adenine,0.90553457
+O15393,Acetylsalicylic acid,0.9056779
+P24941,Fostamatinib,0.9058164
+P29597,Citric acid,0.9062695
+P10275,Permethrin,0.9064001
+P17252,Pidolic acid,0.9065723
+P69905,Lauric acid,0.90658456
+P03372,Enzalutamide,0.9068793
+P03372,Testosterone propionate,0.9068793
+P03372,Somatostatin,0.90723896
+P03372,Esmolol,0.907271
+P15692,Ferrous succinate,0.90729684
+P15692,Ferrous ascorbate,0.90729684
+P15692,Ferrous glycine sulfate,0.90729684
+P10275,Edotreotide gallium Ga-68,0.90731657
+Q02156,Hyaluronic acid,0.9073598
+P03372,Diazoxide,0.9073683
+P01584,Flavin adenine dinucleotide,0.90743047
+P03372,Oxymetholone,0.90755975
+P03372,Pargyline,0.90794176
+P03372,Moclobemide,0.90794176
+P03372,Ethotoin,0.9079857
+P10275,Ropivacaine,0.9081664
+P10275,Proparacaine,0.9081664
+P10275,Oxybuprocaine,0.9081664
+P10275,Dyclonine,0.9081664
+P10275,Levobupivacaine,0.9081664
+P10275,Drospirenone,0.9083016
+P03372,Hydrocortisone butyrate,0.90844643
+P52333,Aspartic acid,0.9085709
+P03372,Dezocine,0.9087347
+P03372,Methylnaltrexone,0.9087347
+P37231,Loperamide,0.9087717
+P03372,Chromium gluconate,0.9089794
+P03372,Chromium nicotinate,0.9089794
+P35228,Acetylsalicylic acid,0.909005
+P03372,Diphenhydramine,0.9091029
+O60674,Vorinostat,0.9091086
+O60674,Belinostat,0.9091086
+P01375,Sulindac,0.90921605
+P10275,Hydrochlorothiazide,0.909745
+P15692,Diacerein,0.90996504
+P03372,Fenofibrate,0.9102498
+P03372,Hexylcaine,0.9103819
+P12004,Artenimol,0.9106183
+P10275,Eugenol,0.910619
+P03372,Fludrocortisone,0.9106425
+P28482,Amiloride,0.9107028
+P24385,Dasatinib,0.9108968
+P01106,Cholic Acid,0.9109253
+P03372,Edrophonium,0.91107833
+Q05209,Zinc,0.9113246
+Q05209,Zinc acetate,0.9113246
+P03372,Desvenlafaxine,0.9114418
+P03372,Pasireotide,0.9116671
+P10275,Orphenadrine,0.91174483
+P10275,Estrone,0.91188335
+Q13131,Zinc acetate,0.9120474
+Q13131,Zinc,0.9120474
+Q13131,Copper,0.91213226
+P03372,Diphenidol,0.91231525
+P03372,Dicyclomine,0.91231525
+P03372,Ipratropium,0.91231525
+P03372,Eletriptan,0.91298836
+P03372,Naratriptan,0.91298836
+P03372,Oxymorphone,0.9131031
+P03372,Isopropamide,0.9135616
+P15692,Glutathione,0.9137243
+P00533,Pentolinium,0.9140092
+P03372,Fluspirilene,0.91409796
+P23458,Choline salicylate,0.9142567
+P37231,Dofetilide,0.91427374
+P69905,Acetylsalicylic acid,0.91431856
+P03372,Permethrin,0.91454726
+P03372,Anileridine,0.914557
+P10275,Dexamethasone acetate,0.91457725
+P01375,Cannabidiol,0.91469544
+P10275,Mitotane,0.91510606
+P15692,Biotin,0.9153095
+Q05655,Cholic Acid,0.91540504
+P12268,NADH,0.91547114
+P21802,Sunitinib,0.9155344
+P00533,Oleic Acid,0.9157282
+P03372,Solriamfetol,0.915794
+P03372,Ibuprofen,0.91602427
+P52333,Levocarnitine,0.91610134
+P12931,Aspartic acid,0.91620135
+P03372,Acetophenazine,0.9162452
+P17252,Diacerein,0.9162647
+P03372,Butriptyline,0.9162692
+Q02156,Biotin,0.91630304
+P03372,Atorvastatin,0.91631216
+P10275,Escitalopram,0.9165131
+P03372,Rosuvastatin,0.91660786
+P45983,Biotin,0.9171731
+P03372,Flavoxate,0.91729707
+P01375,alpha-Linolenic acid,0.91733515
+P45983,Pyridoxal phosphate,0.9175153
+P01584,Pyridoxal phosphate,0.9175675
+O00329,Caffeine,0.91759044
+P10275,Methylergometrine,0.9176545
+P14618,Copper,0.9180528
+P15692,Citric acid,0.91809666
+P03372,Fluticasone propionate,0.918303
+P10275,Clobetasol propionate,0.9183105
+P03372,Mepenzolate,0.91867083
+P00533,Levosimendan,0.918753
+P45983,Hyaluronic acid,0.9189741
+P03372,Cyproterone acetate,0.9189999
+P12931,Cholic Acid,0.91937655
+P00533,Sodium oxybate,0.91941845
+P03372,Isoprenaline,0.9195617
+P03372,Chlorothiazide,0.9196825
+Q02156,Citric acid,0.9197827
+P12268,Acetylsalicylic acid,0.91991276
+P24385,NADH,0.91994303
+P06858,Caffeine,0.9200597
+P03372,Norgestimate,0.920123
+P03372,Modafinil,0.92021596
+P10275,Almotriptan,0.92044806
+O60674,Lithium carbonate,0.9205049
+P10275,Lisuride,0.9205764
+P03372,Trichlormethiazide,0.92089564
+P10275,Finerenone,0.9212505
+P42338,Tiludronic acid,0.9215439
+P10275,Haloperidol,0.921587
+P02647,NADH,0.9217064
+P48729,Artenimol,0.92190343
+P51617,Artenimol,0.92190343
+Q13554,Artenimol,0.92190343
+Q14164,Artenimol,0.92190343
+P10275,Solriamfetol,0.9222946
+P10275,Diethylpropion,0.9222946
+P17252,Ademetionine,0.9224292
+P00533,Estradiol dienanthate,0.92246366
+P00533,Estradiol benzoate,0.92246366
+P00533,Estradiol cypionate,0.92246366
+P28482,Tiludronic acid,0.922476
+P03372,Vasopressin,0.9225009
+P22455,Dequalinium,0.922769
+P03372,Epinastine,0.92291486
+P03372,Eugenol,0.92293143
+P05231,Tiludronic acid,0.9231935
+P10275,Isoetharine,0.92327857
+P10275,Acebutolol,0.92327857
+P01106,Lauric acid,0.9234362
+P03372,Aluminum acetate,0.92352235
+P03372,Isoetharine,0.92384017
+P03372,Pirbuterol,0.92384017
+P28482,Caffeine,0.9241883
+O60674,Romidepsin,0.9242731
+P23458,Ruxolitinib,0.9243506
+P23458,Abrocitinib,0.9243506
+P03372,Benzphetamine,0.9245335
+Q92731,Acetazolamide,0.925099
+P03372,Fluoxymesterone,0.92516255
+P23458,Sulindac,0.9251793
+P03372,Chlorpheniramine,0.92521906
+P03372,Estrone,0.92562205
+P03372,Sotalol,0.9259902
+P51692,Flavin adenine dinucleotide,0.9261502
+P03372,Amsacrine,0.9265166
+P13500,NADH,0.92672646
+P37231,Tofacitinib,0.927091
+P10275,Rosuvastatin,0.9271853
+P10275,Rivastigmine,0.92730725
+P10275,Pyridostigmine,0.92730725
+P03372,Dexamethasone acetate,0.9274092
+P03372,Formoterol,0.9274721
+P03372,Testosterone enanthate,0.92750776
+P00533,Fingolimod,0.92769384
+P10275,Guanabenz,0.92859566
+P37231,Oleic Acid,0.928807
+P21802,Adapalene,0.9295503
+P03372,Triclosan,0.92969525
+P15692,Arsenic trioxide,0.9297317
+P10275,Paliperidone,0.9299319
+O75874,Acetylsalicylic acid,0.93002015
+P10275,Dopamine,0.93188226
+P01106,Vinblastine,0.9324701
+P14210,Dasatinib,0.9328917
+P10275,Lovastatin,0.9332192
+P10275,Simvastatin,0.9332192
+P15692,Aspartic acid,0.93333304
+Q13554,Tiludronic acid,0.9336197
+P38936,Flavin adenine dinucleotide,0.93382597
+O15350,NADH,0.9348621
+P37231,Oxtriphylline,0.9354311
+P10275,Risperidone,0.935549
+P17252,Regorafenib,0.9361528
+P15692,Flavin adenine dinucleotide,0.9364342
+P10275,Atropine,0.9365438
+Q9NZQ7,Fostamatinib,0.9366305
+P23458,Dipyridamole,0.936805
+P17948,Panobinostat,0.9369312
+P00533,Diethylstilbestrol,0.9372891
+P28482,Fostamatinib,0.9373985
+P00533,Mesalazine,0.9374926
+P37088,Tiludronic acid,0.93835366
+P10275,Fospropofol,0.93851084
+Q01344,Tiludronic acid,0.9385197
+P10275,Norepinephrine,0.93861103
+P10275,Misoprostol,0.938717
+P13500,Tiludronic acid,0.938848
+P10275,Doxepin,0.93902427
+O75874,Tiludronic acid,0.93928343
+P23458,Potassium chloride,0.93937105
+P21802,Imatinib,0.9397926
+P06858,Citric acid,0.93981147
+P03372,Estradiol valerate,0.9399893
+P17252,Glutathione disulfide,0.94008124
+Q9NZQ7,Pyridoxal phosphate,0.9402009
+P10275,Modafinil,0.9403239
+Q05655,Biotin,0.9406597
+P23458,Vinblastine,0.94106996
+P37231,Curcumin,0.9411237
+P35968,Dequalinium,0.9413972
+P23458,Enprofylline,0.9421861
+P35228,Promethazine,0.9423579
+P12931,Citric acid,0.94242007
+P06858,Fostamatinib,0.94366944
+P35968,Adapalene,0.9438135
+P10275,Butylscopolamine,0.94497657
+P01137,Tiludronic acid,0.9450576
+P52333,Dasatinib,0.9451413
+P11802,Pyruvic acid,0.9466944
+P24385,Acetylsalicylic acid,0.94670665
+P10275,Hexylcaine,0.94676
+P10721,Dequalinium,0.9468833
+P00533,Olopatadine,0.947229
+P10275,Sertindole,0.94789016
+P05231,NADH,0.94792634
+P68871,Copper,0.9480093
+P29350,Tiludronic acid,0.94824415
+P10275,Lorpiprazole,0.94842815
+P10275,Phenoxybenzamine,0.9485197
+P10275,Benzphetamine,0.94902027
+P10275,Viloxazine,0.94917095
+Q13131,Tiludronic acid,0.94942605
+P01584,Fostamatinib,0.94959986
+P10275,Oxprenolol,0.9497851
+P10275,Terbutaline,0.9497851
+P10275,Formoterol,0.9497851
+P31749,Tiludronic acid,0.9501119
+P23458,Olopatadine,0.9506759
+P22455,Alitretinoin,0.9507919
+P10275,Racepinephrine,0.95140886
+P15692,Miconazole,0.95174587
+P10275,Rocuronium,0.95184803
+P17252,Vorinostat,0.952358
+P11802,Fostamatinib,0.95244
+P14210,Pyridoxal phosphate,0.952987
+P03372,Diethylstilbestrol,0.95314205
+P10275,Testosterone cypionate,0.9532815
+P21802,Nintedanib,0.9536073
+O60674,Adapalene,0.9537102
+P10275,Dextroamphetamine,0.9538381
+P35968,Sunitinib,0.9538727
+P10275,Lidocaine,0.95400774
+P10275,Lumateperone,0.9541902
+P10275,Thiamylal,0.95424587
+P10275,Indigotindisulfonic acid,0.95478284
+P10275,Zolpidem,0.95518315
+P10275,Fenofibric acid,0.9558163
+P28482,Citric acid,0.95613855
+P10275,Oxymorphone,0.9562844
+P10275,Methylphenidate,0.95652604
+P10275,Mazindol,0.9567816
+P10721,Sunitinib,0.9572874
+P10275,Sodium carbonate,0.9573722
+P10275,Tegaserod,0.95761746
+P10275,Prazosin,0.95899665
+P01137,NADH,0.95921624
+P02647,Tiludronic acid,0.95934564
+Q92731,Estradiol acetate,0.9597759
+Q92731,Estradiol dienanthate,0.9597759
+Q92731,Estradiol cypionate,0.9597759
+Q92731,Estradiol valerate,0.9597759
+Q92731,Estradiol benzoate,0.9597759
+P10275,Trichlormethiazide,0.9600826
+P10275,Acetylcholine,0.96025765
+P10275,Phentermine,0.9603802
+P35228,Cannabidiol,0.960617
+P27361,Biotin,0.961526
+P01375,Zanubrutinib,0.9615721
+P10275,Brexpiprazole,0.96165335
+P10275,Flecainide,0.96182156
+P01106,Tamoxifen,0.9618965
+P10275,Isoprenaline,0.9620289
+O60674,Enprofylline,0.96216893
+P10275,Fluphenazine,0.96233475
+P10275,Decamethonium,0.9625884
+O15393,NADH,0.96259534
+P10275,Iloperidone,0.9626198
+P10275,Physostigmine,0.96293473
+P13500,Acetylsalicylic acid,0.96330345
+P10275,Gilteritinib,0.96336466
+P10275,Oxyphencyclimine,0.9633796
+P10275,Methscopolamine bromide,0.9633796
+Q00987,Tiludronic acid,0.9640252
+P00533,Sulfasalazine,0.9642291
+P10275,Cryptenamine,0.9648432
+P10275,Fentanyl,0.9652741
+P10275,Morphine,0.96537256
+P10275,Clenbuterol,0.96612525
+P10721,Tretinoin,0.9663655
+P10275,Dihydro-alpha-ergocryptine,0.9666993
+P10275,Pancuronium,0.9671841
+P10275,Buprenorphine,0.9672953
+P10275,Vortioxetine,0.96818864
+P10275,Oxycodone,0.9685187
+P10275,Levorphanol,0.9685187
+P10275,Nalmefene,0.9685187
+P10275,Labetalol,0.96856326
+P10275,Zuclopenthixol,0.9686463
+P37231,Levamlodipine,0.9686891
+P21802,Vorinostat,0.969079
+P10275,Phendimetrazine,0.9692588
+P10275,Diclofenamide,0.96937335
+P10275,Mivacurium,0.9694967
+P10275,Brompheniramine,0.9696852
+P37088,NADH,0.96979594
+P10275,Homatropine methylbromide,0.9698968
+P10275,Tolterodine,0.9698968
+P10275,Metixene,0.9698968
+P10275,Aclidinium,0.9698968
+P10275,Umeclidinium,0.9698968
+P10275,Gallamine triethiodide,0.96990037
+P10275,Hydrocodone,0.9700788
+P10275,Pilocarpine,0.9702169
+P10275,Dipivefrin,0.97022104
+P10275,Tubocurarine,0.9704556
+P10275,Sulpiride,0.9706397
+P10275,Dapiprazole,0.9706416
+P10275,Pramipexole,0.9708146
+P10275,Bethanidine,0.9708617
+P10275,Promazine,0.97088325
+P10721,Sorafenib,0.9711319
+P11309,Fostamatinib,0.9716962
+P51617,Fostamatinib,0.9716962
+Q13554,Fostamatinib,0.9716962
+Q13627,Fostamatinib,0.9716962
+Q15208,Fostamatinib,0.9716962
+P35968,Erdafitinib,0.97272545
+Q13233,NADH,0.97326607
+P35228,Benzthiazide,0.97451204
+P29350,Fostamatinib,0.9746853
+Q05209,Fostamatinib,0.9746853
+P21802,Decitabine,0.9749474
+P10275,Estradiol acetate,0.9774535
+P01308,Artenimol,0.97842306
+P02751,Artenimol,0.97842306
+P42338,Fostamatinib,0.9801635
+P02679,NADH,0.98163086
+P35968,Ponatinib,0.9819707
+Q9HC29,Fostamatinib,0.9824405
+P10721,Ponatinib,0.9828607
+P06493,NADH,0.9841537
+Q14164,NADH,0.9841537
+Q16512,NADH,0.9841537
+Q16665,Fostamatinib,0.98456293
+P45984,Fostamatinib,0.98467016
+Q13233,Fostamatinib,0.9855722
+P35968,Nintedanib,0.9861658
+P29350,NADH,0.9876802
+P10721,Nintedanib,0.98787034
+P35968,Vorinostat,0.9879519
+P14780,Zinc chloride,0.9884862
+P02679,Fostamatinib,0.9893674
+Q16539,Fostamatinib,0.9896132
+P37088,Fostamatinib,0.9901576
+P10721,Phenylbutyric acid,0.99136233
+P10721,Vorinostat,0.99136233
+P01011,Zinc chloride,0.99189514
+P01308,Zinc chloride,0.99189514
+Q00987,Zinc chloride,0.99189514
+P02647,Zinc chloride,0.992703
+P35968,Decitabine,0.9930875
+P10721,Decitabine,0.99449635
+O15350,Zinc acetate,0.9980725
+P01011,Zinc,0.9980725
+P02751,Zinc acetate,0.9980725
+Q00987,Zinc,0.9980725
+P04637,Zinc acetate,0.99972117
